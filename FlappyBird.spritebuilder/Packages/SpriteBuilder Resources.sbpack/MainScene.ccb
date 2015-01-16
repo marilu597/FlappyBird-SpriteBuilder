@@ -172,7 +172,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>clouds1</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -280,7 +280,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>clouds2</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -388,7 +388,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>bush1</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -496,7 +496,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>bush2</string>
 					</dict>
 					<dict>
 						<key>name</key>
