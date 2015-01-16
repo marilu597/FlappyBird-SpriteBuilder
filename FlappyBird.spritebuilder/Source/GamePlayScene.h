@@ -9,6 +9,8 @@
 #import "CCNode.h"
 #import "Character.h"
 
+// Enum type = NSInteger
+// Enum name = DrawingOrder
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
     DrawingOrderGround,
