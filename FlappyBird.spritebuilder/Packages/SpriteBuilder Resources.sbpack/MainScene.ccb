@@ -139,6 +139,14 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
 			</dict>
 			<dict>
@@ -239,6 +247,14 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
 			</dict>
 			<dict>
@@ -253,7 +269,7 @@
 				<key>displayName</key>
 				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>_cloud2</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -338,6 +354,14 @@
 							<real>1</real>
 							<real>1</real>
 						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
 					</dict>
 				</array>
 			</dict>
@@ -439,6 +463,14 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
 			</dict>
 			<dict>
@@ -539,9 +571,15 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -713,6 +751,14 @@
 									<real>1</real>
 								</array>
 							</dict>
+							<dict>
+								<key>name</key>
+								<string>effects</string>
+								<key>type</key>
+								<string>EffectControl</string>
+								<key>value</key>
+								<array/>
+							</dict>
 						</array>
 					</dict>
 					<dict>
@@ -877,6 +923,14 @@
 									<real>1</real>
 									<real>1</real>
 								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>effects</string>
+								<key>type</key>
+								<string>EffectControl</string>
+								<key>value</key>
+								<array/>
 							</dict>
 						</array>
 					</dict>
