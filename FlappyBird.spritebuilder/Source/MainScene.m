@@ -182,6 +182,9 @@
     
     physicsNode.position = ccp(physicsNode.position.x - (character.physicsBody.velocity.x * delta), physicsNode.position.y);
     
+    _parallaxBackground.position = ccp(_parallaxBackground.position.x - (character.physicsBody.velocity.x * delta),
+                                       _parallaxBackground.position.y);
+    
     // Move and loop the bushes
     for (CCNode *bush in _bushes) {
         // Get the world position of the bush
