@@ -30,6 +30,7 @@
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     // touches the screen
+    NSLog(@"touchBegan in GamePlayScene");
     [character flap];
 }
 

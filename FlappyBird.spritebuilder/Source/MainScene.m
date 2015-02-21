@@ -103,6 +103,7 @@
 #pragma mark - Touch Handling
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    NSLog(@"touchBegan in MainScene");
     if (!_gameOver) {
         [character.physicsBody applyAngularImpulse:10000.f];
         _sinceTouch = 0.f;
