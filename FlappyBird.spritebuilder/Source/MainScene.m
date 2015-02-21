@@ -150,7 +150,9 @@
 - (void)addObstacle {
     Obstacle *obstacle = (Obstacle *)[CCBReader load:@"Obstacle"];
     CGPoint screenPosition = [self convertToWorldSpace:ccp(380, 0)];
+    NSLog(@"screenPosition: %@", NSStringFromCGPoint(screenPosition));
     CGPoint worldPosition = [physicsNode convertToNodeSpace:screenPosition];
+    NSLog(@"worldPosition: %@", NSStringFromCGPoint(worldPosition));
     obstacle.position = worldPosition;
     [obstacle setupRandomPosition];
     obstacle.zOrder = DrawingOrderPipes;

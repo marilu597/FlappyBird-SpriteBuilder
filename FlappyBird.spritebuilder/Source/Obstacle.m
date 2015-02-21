@@ -31,6 +31,7 @@ static const CGFloat maximumYPosition = 380.f;
 - (void)setupRandomPosition {
   // value between 0.f and 1.f
   CGFloat random = ((double)arc4random() / ARC4RANDOM_MAX);
+    NSLog(@"random: %f", random);
   CGFloat range = maximumYPosition - minimumYPosition;
   self.position = ccp(self.position.x, minimumYPosition + (random * range));
 }
